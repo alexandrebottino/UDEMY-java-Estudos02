@@ -1,7 +1,7 @@
-package excecao.personalizadaA;
+package excecao.personalizadaB;
 
 
-public class NumeroForaIntervaloException extends RuntimeException{
+public class NumeroForaIntervaloException extends Exception{
 
     private String nomeDoAtributo;
 
